@@ -1,0 +1,74 @@
+.header-container {
+  background: #ce2829;
+}
+.headersvg-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 68px;
+}
+.tabs-div {
+  display: flex;
+  gap: 4px;
+  padding-left: 694px;
+}
+.tabs-div p {
+  color: #faf7f2;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration: none;
+}
+.main-container {
+  display: block;
+  flex-direction: column;
+}
+.food-div {
+  padding-left: 694px;
+}
+.food-div p {
+  font-family: Barlow;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29.44px;
+  text-align: left;
+}
+.price-point-container {
+  display: flex;
+  gap: 302px;
+  padding-left: 694px;
+}
+.price-div p {
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.47px;
+  text-align: left;
+}
+.point-info-div {
+  display: flex;
+  gap: 128px;
+}
+.point-info-div p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: right;
+  color: #5f5f5f;
+  margin: 28px 0;
+}
+.food-text-info {
+  display: flex;
+  margin-left: 694px;
+  margin-right: 650px;
+}
+.food-text-info p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #5f5f5f;
+}

@@ -1,0 +1,49 @@
+.home-container {
+  background-image: url(/Assets/mile1-assets/home-banner.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+.p-div {
+  width: 40%;
+}
+.p-div p {
+  font-family: Roboto Condensed;
+  font-size: 86px;
+  font-weight: 300;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 35px 0 15px 0;
+}
+.aciktim-btn {
+  border-radius: 50px;
+  background: #fdc913;
+  width: 200px;
+  height: 56px;
+  border: none;
+}
+.aciktim-btn p {
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  margin: 0;
+}
+.aciktim-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
